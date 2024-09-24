@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Horse : MonoBehaviour
@@ -8,8 +9,14 @@ public class Horse : MonoBehaviour
 
     [SerializeField] private Transform target;
     [SerializeField] private float speed;
+
     private void Update()
     {
         rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, speed * Vector3.forward.z);
+    }
+
+    public void SetSpeed(float speed)
+    {
+        this.speed = speed;
     }
 }
