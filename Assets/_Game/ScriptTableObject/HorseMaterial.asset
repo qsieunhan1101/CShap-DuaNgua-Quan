@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7afe934c4ada864080c9af9a2e19196, type: 3}
+  m_Name: HorseMaterial
+  m_EditorClassIdentifier: 
+  bodys:
+  - {fileID: 2100000, guid: e22b863a5dcfa614c861bf4ec58a498b, type: 2}
+  - {fileID: 2100000, guid: ac3e162b375490d45b69b5b5456fc3da, type: 2}
+  - {fileID: 2100000, guid: 8f05281d57c9eb442866009a29cace57, type: 2}
+  - {fileID: 2100000, guid: 2bd1de7c10c201243899904975e2262d, type: 2}
+  - {fileID: 2100000, guid: 82a3443d5e9512b44acadc2d8fc5f8c1, type: 2}
+  - {fileID: 2100000, guid: ed885e0135209ea4dbd6e37fc723874b, type: 2}
+  - {fileID: 2100000, guid: 3ed8d1bdbcee6e346be05552cf87ea83, type: 2}
+  - {fileID: 2100000, guid: ba63e9fa17822944398596451a481101, type: 2}
+  - {fileID: 2100000, guid: 3e74e0c8b485caa489fdb5c18cd69470, type: 2}
+  - {fileID: 2100000, guid: 5b3f3a9db7938e1408c9066ee011a8f3, type: 2}
+  manes:
+  - {fileID: 2100000, guid: 2d34c887516244f4bbafc86416dfdda3, type: 2}
+  - {fileID: 2100000, guid: 66f8999b6687e704faecf0abf8ea7e2f, type: 2}
+  eyes:
+  - {fileID: 2100000, guid: c1c809c1c80900c4ab5f83379f802cc9, type: 2}
+  - {fileID: 2100000, guid: 9d993237ffd2d634193d3e2c200a1569, type: 2}
