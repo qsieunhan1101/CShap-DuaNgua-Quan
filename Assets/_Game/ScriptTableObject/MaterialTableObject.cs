@@ -9,6 +9,7 @@ public class MaterialTableObject : ScriptableObject
     [SerializeField] private Material[] manes;
     [SerializeField] private Material[] eyes;
 
+    [SerializeField] private string[] names;
 
 
     public Material GetRandomMatBody()
@@ -25,5 +26,10 @@ public class MaterialTableObject : ScriptableObject
     public Material GetRandomMatMane()
     {
         return manes[Random.Range(0, manes.Length)];
+    }
+
+    public string[] GetListNameHorse()
+    {
+        return names;
     }
 }

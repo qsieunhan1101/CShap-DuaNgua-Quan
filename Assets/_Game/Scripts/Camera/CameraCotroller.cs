@@ -26,7 +26,7 @@ public class CameraCotroller : Singleton<CameraCotroller>
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (target != null)
         {

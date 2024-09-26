@@ -27,12 +27,12 @@ public class HorseManager : Singleton<HorseManager>
     }
     private void SetUpHorse()
     {
-        int ranHorse = Random.Range(0, listHorsePos.Count);
+        int ranHorse = Random.Range(4, listHorsePos.Count-3);
         for (int i = 0; i < listHorsePos.Count; i++)
         {
             GameObject horse = Instantiate(horsePrefab, horseParent);
             horse.transform.position = listHorsePos[i].transform.position;
-            horse.name = $"Horse {i+1}";
+            horse.name = $"{HorseDataManager.Instance.MaterialHorse.GetListNameHorse()[i]}";
             Horse hor = horse.GetComponent<Horse>();
             listHorses.Add(horse.GetComponent<Horse>());
 
